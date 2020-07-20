@@ -1,10 +1,11 @@
 
 require('dotenv').config();
-const {API} = process.env;
+const {API, GA_ID} = process.env;
 
 export default {
   env: {
-    API
+    API,
+    GA_ID
   },
   /*
   ** Nuxt rendering mode
@@ -62,6 +63,10 @@ export default {
     ['nuxt-buefy', {
       css: false,
       // materialDesignIcons: false
+    }],
+    ['@nuxtjs/google-analytics', 
+    {
+      id: process.env.GA_ID,
     }]
   ],
   axios: {
