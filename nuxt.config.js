@@ -26,7 +26,15 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'VODDとは、VOCALOIDの音楽をランダムで表示するサイトです。楽曲の発掘などにお役立てください。' }
+      { hid: 'description', name: 'description', content: 'VODDとは、VOCALOIDの音楽をランダムで表示するサイトです。楽曲の発掘などにお役立てください。' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'VODD' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'https://vodd.site' },
+      { hid: 'og:title', property: 'og:title', content: 'VODD' },
+      { hid: 'og:description', property: 'og:description', content: 'VODDとは、VOCALOIDの音楽をランダムで表示するサイトです。楽曲の発掘などにお役立てください。' },
+      { hid: 'og:image', property: 'og:image', content: '/og_img.png' },
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:site', content: '@s_k_1_9' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
