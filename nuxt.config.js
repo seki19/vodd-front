@@ -33,7 +33,7 @@ export default {
       { hid: 'og:title', property: 'og:title', content: 'VODD' },
       { hid: 'og:description', property: 'og:description', content: 'VODDとは、VOCALOIDの音楽をランダムで表示するサイトです。楽曲の発掘などにお役立てください。' },
       { hid: 'og:image', property: 'og:image', content: '/og_img.png' },
-      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@s_k_1_9' },
     ],
     link: [
