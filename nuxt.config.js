@@ -69,9 +69,10 @@ export default {
     '@nuxtjs/bulma',
     '@nuxtjs/axios',
     ['nuxt-buefy', {
-      css: false,
+      // css: false,
       // materialDesignIcons: false
     }],
+    'cookie-universal-nuxt',
     ['@nuxtjs/google-analytics', 
     {
       id: process.env.GA_ID,
